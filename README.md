@@ -1,7 +1,7 @@
 [![Discord Follow](https://dcbadge.vercel.app/api/server/XbPdxAMJte?style=flat)](https://discord.gg/zbvd9qx9Pb)
 
-# Rawdog
-
+# Rawdog-chinese Rowdog中文版
+支持中文提示
 An CLI assistant that responds by generating and auto-executing a Python script. 
 
 https://github.com/AbanteAI/rawdog/assets/50287275/1417a927-58c1-424f-90a8-e8e63875dcda
@@ -21,9 +21,10 @@ This works for tasks like:
 Please proceed with caution. This obviously has the potential to cause harm if so instructed.
 
 ### Quickstart
-1. Install rawdog with pip:
+1. Install rawdog-chinese :
     ```
-    pip install rawdog-ai
+    pip install -r requirements.txt
+    pip install .
     ```
 
 2. Choose a mode of interaction. You will be prompted to input an API key if not found:
